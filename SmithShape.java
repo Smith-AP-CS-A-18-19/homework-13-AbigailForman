@@ -15,4 +15,6 @@ public interface SmithShape {
 	// The overall area of the shape
 	public double getArea();
 
+	public Rectangle2D toSquare();
+
 }
