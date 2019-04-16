@@ -75,8 +75,8 @@ import java.awt.geom.Rectangle2D;
 
 
  public String toString() {
-   String str="width \n height \n angle";
-        System.out.println(str);
+   String str= "Width: " + width + "\nHeight: " + height + "\nAngle: " + angle;
+        return str;
   }
 
 

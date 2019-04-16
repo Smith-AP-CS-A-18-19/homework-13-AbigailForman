@@ -1,3 +1,5 @@
+import java.awt.geom.Rectangle2D;
+
 public interface SmithShape {
 
 	// The lower left x coordinate

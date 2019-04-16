@@ -10,6 +10,7 @@ public class Homework13 {
 	 * file
 	 */
 
+
 	 /* Create a Triangle with the indicated width, height,
 	  * and angle. The x and y coordinates should both be 0.
 	  * Return the Triangle.
@@ -43,8 +44,9 @@ public class Homework13 {
 	  * to 180
 	  */
 	 public static double problem4(SmithShape s, double a) {
-		 return 180 - a;
-
+		 double c = ((Triangle)s).getAngle() + a;
+		 double e = 180 - c;
+		 return e;
 	 }
 
 	 /* Return the Rectangle2D that is created by the
